@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>home</title>
+
+   <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <header class="header">
+
+        <section class="flex">
+     
+           <a href="home.php" class="logo">★𝐇𝐁 𝐂𝐀𝐅𝐄★ 😋</a>
+     
+           <nav class="navbar">
+              <a href="home.html">Home</a>
+              <a href="about.html">About</a>
+              <a href="menu.html">Menu</a>
+              <a href="orders.html">Orders</a>
+              <a href="contact.html">Contact</a>
+           </nav>
+     
+           <div class="icons">
+              <a href="#"><i class="fas fa-search"></i></a>
+              <a href="cart.html"><i class="fas fa-shopping-cart"></i><span>1</span></a>
+              <div id="user-btn" class="fas fa-user"></div>
+              <div id="menu-btn" class="fas fa-bars"></div>
+           </div>
+     
+           <div class="profile">
+              <p class="name">hasindu</p>
+              <div class="flex">
+                 <a href="profile.html" class="btn">Profile</a>
+                 <a href="components/user_logout.php" onclick="return confirm('logout from this website?');" class="delete-btn">logout</a>
+              </div>
+              <p class="account">
+                 <a href="login.html">Login</a> or
+                 <a href="register.html">Register</a>
+              </p> 
+           </div>
+     
+        </section>
+     
+     </header>
+
+
+
+     <section class="form-container">
+
+        <form action="" method="post">
+           <h3>login now</h3>
+           <input type="email" name="email" required placeholder="enter your email" class="box" maxlength="50" oninput="this.value = this.value.replace(/\s/g, '')">
+           <input type="password" name="pass" required placeholder="enter your password" class="box" maxlength="50" oninput="this.value = this.value.replace(/\s/g, '')">
+           <input type="submit" value="login now" name="submit" class="btn">
+           <p>don't have an account? <a href="register.html">register now</a></p>
+        </form>
+     
+     </section>
+
+
+
+     <footer class="footer">
+
+        <section class="grid">
+     
+           <div class="box">
+              <img src="images/email-icon.png" alt="">
+              <h3>Our Email</h3>
+              <a href="mailto:hasindubimalka09@gmail.com">hasindubimalka09@gmail.com</a>
+           </div>
+     
+           <div class="box">
+              <img src="images/clock-icon.png" alt="">
+              <h3>Opening Hours</h3>
+              <p>08:00am to 08:00pm</p>
+           </div>
+     
+           <div class="box">
+              <img src="images/map-icon.png" alt="">
+              <h3>Our Address</h3>
+              <a href="#">Rambukkana, Kegalle</a>
+           </div>
+     
+           <div class="box">
+              <img src="images/phone-icon.png" alt="">
+              <h3>Our Number</h3>
+              <a href="tel:0772547128">+94 772547128</a>
+           </div>
+     
+        </section>
+     
+        <div class="credit">&copy; copyright @ by <span>Hasindu_HB</span> | all rights reserved!</div>
+     
+     </footer>
